@@ -86,10 +86,29 @@ a{
     margin-left: 50px;
     list-style: disc;
 }
+.filling{
+    padding: 50px 0px 50px 0px;
+}
+.filling-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filling-title{
+    color: rgb(113, 27, 12);
+}
+.filling-img{
+    width: 550px;
+    padding-left: 50px;
+}
+.filling-list{
+    margin-left: 50px;
+}
+
 .footer{
     padding: 10px;
     padding-bottom: 10px;
-    background-color: rgb(221, 103, 82);;
+    background-color: rgb(221, 103, 82);
 }
 .footer-container{
     display:flex;
