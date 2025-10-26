@@ -1,121 +1,139 @@
-body{
-    padding: 0px;
-    margin: 0px;
+body {
+    padding: 0;
+    margin: 0;
     background-color: blanchedalmond;
     font-size: 22px;
 }
 
-ul{
+ul {
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.container{
-    width: 1200px;
+.container {
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
 }
 
-.header{
-    padding: 10px 10px 10px 10px;
+.header {
+    padding: 10px;
     background-color: rgb(221, 103, 82);
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.header-img {
     width: 120px;
 }
-.header-list{
+
+.header-list {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.header-link{
+.header-link {
     font-size: 24px;
     font-weight: 700;
-    color:aliceblue
-}
-.header-link:hover{
-    font:weight 900;
-    color: beige; 
+    color: aliceblue;
 }
 
-.hero{
-    padding: 50px 0px 50px 0px;
+.header-link:hover {
+    font-weight: 900;
+    color: beige;
 }
 
-.hero-img{
-    width: 550px;
-    padding-right: 50px 0px 50px;
+.hero {
+    padding: 50px 0;
 }
-.hero-container{
-    display: flex;
-    align-items: center;
-}
-.hero-title{
-    font-size: 48px;
-    color: rgb(113, 27, 12);
-}
-.dough{
-    padding: 50px 0px 50px 0px;
-    background-color: rgb(255, 167, 123);
-}
-.dough-container{
+
+.hero-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.dough-title{
-    color: rgb(113, 27, 12);
 
+.hero-img {
+    width: 550px;
+    padding: 50px 0;
 }
-.dough-img{
+
+.hero-title {
+    font-size: 48px;
+    color: rgb(113, 27, 12);
+}
+
+.dough {
+    padding: 50px 0;
+    background-color: rgb(255, 167, 123);
+}
+
+.dough-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dough-title {
+    color: rgb(113, 27, 12);
+}
+
+.dough-img {
     width: 550px;
     padding-left: 50px;
 }
-.dough-list{
+
+.dough-list {
     margin-left: 50px;
     list-style: disc;
 }
-.filling{
-    padding: 50px 0px 50px 0px;
+
+.filling {
+    padding: 50px 0;
 }
-.filling-container{
+
+.filling-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filling-title {
+    color: rgb(113, 27, 12);
+}
+
+.filling-img {
+    width: 550px;
+    padding-left: 50px;
+}
+
+.filling-list {
+    margin-left: 50px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: rgb(221, 103, 82);
+}
+
+.footer-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.filling-title{
-    color: rgb(113, 27, 12);
-}
-.filling-img{
-    width: 550px;
-    padding-left: 50px;
-}
-.filling-list{
-    margin-left: 50px;
-}
 
-.footer{
-    padding: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(221, 103, 82);
-}
-.footer-container{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-}
-.footer-img{
-    width: 10px;
+.footer-image {
+    width: 100px;
     padding-right: 10px;
 }
+
