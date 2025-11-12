@@ -75,7 +75,7 @@ a {
 }
 
 .dough {
-    padding: 50px 0;
+    
     background-color: rgb(255, 167, 123);
     display: flex;
 }
@@ -101,7 +101,7 @@ a {
 }
 
 .filling {
-    padding: 50px 0;
+  padding: 0px;  
 }
 
 .filling-container {
@@ -116,7 +116,7 @@ a {
 
 .filling-img {
     width: 550px;
-    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .filling-list {
