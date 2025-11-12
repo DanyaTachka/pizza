@@ -21,7 +21,7 @@ a {
 }
 
 .header {
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     background-color: rgb(221, 103, 82);
 }
 
@@ -53,7 +53,7 @@ a {
 }
 
 .hero {
-    padding-right: 50px 0;
+    padding: 50px 0px 50px 0px;
 }
 
 .hero-container {
@@ -92,14 +92,18 @@ a {
 
 .dough-img {
     width: 550px;
-    padding-right: 50px;
+    
 }
 
 .dough-list {
     margin-left: 50px;
     list-style: disc;
+    /* color: rgb(113, 27, 12); */
 }
-
+.dough-item{
+    font-size: 22px;
+    font-style: oblique;
+}
 .filling {
   padding: 0px;  
 }
@@ -115,8 +119,10 @@ a {
 }
 
 .filling-img {
-    width: 550px;
+        width: 550px;
     padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .filling-list {
@@ -125,11 +131,13 @@ a {
 }
 
 .footer {
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     background-color: rgb(221, 103, 82);
+    /* color: rgb(113, 27, 12); */
+}
+.footer-text{
     color: rgb(113, 27, 12);
 }
-
 .footer-container {
     display: flex;
     align-items: center;
