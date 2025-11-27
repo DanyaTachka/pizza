@@ -21,7 +21,7 @@ a {
 }
 
 .header {
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0;
     background-color: rgb(221, 103, 82);
 }
 
@@ -53,20 +53,18 @@ a {
 }
 
 .hero {
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0;
 }
 
 .hero-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
 }
 
 .hero-img {
     width: 550px;
-    padding-right: 50px;
-    
+    margin-right: 50px;
 }
 
 .hero-title {
@@ -75,9 +73,8 @@ a {
 }
 
 .dough {
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0;
     background-color: rgb(255, 167, 123);
-    display: flex;
 }
 
 .dough-container {
@@ -92,20 +89,21 @@ a {
 
 .dough-img {
     width: 550px;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 .dough-list {
     margin-left: 50px;
     list-style: disc;
-    /* color: rgb(113, 27, 12); */
 }
-.dough-item{
+
+.dough-item {
     font-size: 22px;
     font-style: oblique;
 }
+
 .filling {
-  padding: 50px 0px 50px 0px;  
+    padding: 50px 0;
 }
 
 .filling-container {
@@ -114,13 +112,13 @@ a {
     justify-content: space-between;
 }
 
-.filling-title {
-    color: rgb(113, 27, 12);
-}
-
 .filling-img {
     width: 550px;
-    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.filling-title {
+    color: rgb(113, 27, 12);
 }
 
 .filling-list {
@@ -128,14 +126,20 @@ a {
     list-style: disc;
 }
 
-.footer {
-    padding: 10px 0px 10px 0px;
-    background-color: rgb(221, 103, 82);
-    /* color: rgb(113, 27, 12); */
+.filling-text {
+    margin-top: 20px;
+    font-size: 22px;
 }
-.footer-text{
+
+.footer {
+    padding: 10px 0;
+    background-color: rgb(221, 103, 82);
+}
+
+.footer-text {
     color: rgb(255, 247, 245);
 }
+
 .footer-container {
     display: flex;
     align-items: center;
@@ -147,4 +151,3 @@ a {
     padding-right: 10px;
     padding-bottom: 10px;
 }
-
